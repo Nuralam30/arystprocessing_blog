@@ -58,7 +58,7 @@ nav{
 
 /* ==========banner section designed =========*/
 .banner-section{
-    min-height: 60vh;
+    min-height: 50vh;
 }
 .banner-section img{
     width: 200px;
@@ -77,9 +77,9 @@ nav{
 
 /* ==========content section designed =========*/
 .content-text{
-    font-weight: 300;
+    font-weight: 400;
     word-spacing: 2px;
-    line-height: 28px;
+    text-align: justify;
 }
 .welcome-section, .our-goals{
     padding: 20px 0px;
@@ -89,6 +89,10 @@ nav{
 }
 .medium-text{
     font-size: 20px;
+    line-height: 20px;
+}
+.center-text{
+    text-align: center !important;
 }
 
 
