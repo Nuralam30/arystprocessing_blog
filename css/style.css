@@ -92,9 +92,17 @@ nav{
     line-height: 20px;
 }
 .center-text{
-    text-align: center !important;
+    text-align: center;
 }
 
+
+/* ============what we do page designed========== */
+/* .back-to-top{
+    text-decoration: none;
+    background-color: aqua;
+    padding: 5px;
+    color: #fff;
+} */
 
 
 /* ==========footer section designed =========*/
