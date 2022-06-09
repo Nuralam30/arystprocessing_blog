@@ -76,25 +76,31 @@ nav{
 
 
 /* ==========content section designed =========*/
-.content-text{
-    font-weight: 400;
-    word-spacing: 2px;
-    text-align: justify;
+.contact-section{
+    padding: 40px 0px;
 }
-.welcome-section, .our-goals{
-    padding: 20px 0px;
-}
-.large-text{
-    font-size: 24px;
-}
-.medium-text{
-    font-size: 20px;
-    line-height: 20px;
-}
-.center-text{
-    text-align: center;
+@media screen and (max-width: 600px) {
+    .contact-section{
+        padding: 20px;
+    }
+  }
+
+
+.contact-form{
+    max-width: 600px;
+    padding: 50px 0px;
 }
 
+.form-group{
+    margin-bottom: 20px;
+}
+
+.form-group span{
+    color: red;
+}
+.submit-button{
+    max-width: 100px;
+}
 
 /* ============what we do page designed========== */
 /* .back-to-top{
