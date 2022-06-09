@@ -8,10 +8,9 @@
 }
 body{
     font-family: 'Roboto', sans-serif;
-    background-image: url('../images/dark\ green\ background.png');
+    /* background-image: url('../images/dark\ green\ background.png');
     background-size: cover;
-    background-position: center;
-    color: #fff;
+    background-position: center; */
 }
 
 
@@ -37,7 +36,7 @@ nav{
     margin-left: 30px;
 }
 .heighlight{
-    color: #daad32;
+    color: #9e770d;
 }
 .navlist{
     list-style: none;
@@ -48,7 +47,7 @@ nav{
 }
 .nav-link{
     font-size: 18px;
-    color: #daad32;
+    color: #9e770d;
 }
 .line-part img{
     height: 18px;
@@ -76,31 +75,39 @@ nav{
 
 
 /* ==========content section designed =========*/
-.contact-section{
-    padding: 40px 0px;
+.content-text{
+    font-weight: 400;
+    word-spacing: 2px;
+    text-align: justify;
 }
-@media screen and (max-width: 600px) {
-    .contact-section{
-        padding: 20px;
-    }
-  }
+.welcome-section, .our-goals{
+    padding: 20px 0px;
+}
+.text-box-1{
+    background-color: rgba(0, 0, 0, .2);
+    padding: 20px;
+}
+.text-box-2{
+    margin-top: 20px;
+    padding: 20px;
+}
+.text-box-3{
+    margin-top: 20px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, .2);
+    box-shadow: 5px 10px 20px #dedede;
+}
+.large-text{
+    font-size: 24px;
+}
+.medium-text{
+    font-size: 20px;
+    line-height: 20px;
+}
+.center-text{
+    text-align: center;
+}
 
-
-.contact-form{
-    max-width: 600px;
-    padding: 50px 0px;
-}
-
-.form-group{
-    margin-bottom: 20px;
-}
-
-.form-group span{
-    color: red;
-}
-.submit-button{
-    max-width: 100px;
-}
 
 /* ============what we do page designed========== */
 /* .back-to-top{
@@ -114,7 +121,11 @@ nav{
 /* ==========footer section designed =========*/
 .footer-section{
     padding: 60px 0px;
-    background: linear-gradient(rgba(0, 0, 0, .5),rgba(0, 0, 0, .5));
+    background: rgba(0, 0, 0, .6);
+    color: #dedede;
+}
+.footer-section .heighlight{
+    color: #daad32;
 }
 .footer-section h6{
     font-size: 22px;
@@ -138,26 +149,28 @@ nav{
 
 /* =============contact page designed=========== */
 .contact-section{
-    padding: 60px 10px;
+    padding: 40px 0px;
 }
-.contact-content{
-    font-size: 22px;
-    font-weight: 300;
+@media screen and (max-width: 600px) {
+    .contact-section{
+        padding: 20px;
+    }
 }
 
 .contact-form{
-    padding: 50px 20px;
+    max-width: 600px;
+    padding: 50px 0px;
 }
-.contact-form input, .contact-form textarea{
-    font-size: 20px;
-    padding: 5px 10px;
-    margin-bottom: 10px;
-    border: none;
-    outline: none;
-    border-bottom: 1px solid #dedede;
+
+.form-group{
+    margin-bottom: 20px;
 }
-.contact-form button{
-    max-width: 150px;
+
+.form-group span{
+    color: red;
+}
+.submit-button{
+    max-width: 100px;
 }
 
 
