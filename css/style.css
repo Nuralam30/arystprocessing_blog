@@ -110,13 +110,12 @@ nav{
 
 
 /* ============what we do page designed========== */
-/* .back-to-top{
-    text-decoration: none;
-    background-color: aqua;
-    padding: 5px;
-    color: #fff;
-} */
-
+#see-less-btn{
+    display: none;
+}
+.text-toggle{
+    display: none;
+}
 
 /* ==========footer section designed =========*/
 .footer-section{
