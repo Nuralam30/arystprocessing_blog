@@ -69,7 +69,7 @@ nav{
 .banner-text{
     font-size: 18px;
     font-weight: 500;
-    color: #b8b5b5;
+    color: #6e6b6b;
 }
 
 
@@ -110,12 +110,17 @@ nav{
 
 
 /* ============what we do page designed========== */
-#see-less-btn{
-    display: none;
-}
+
 .text-toggle{
     display: none;
 }
+.show{
+    display: block;
+    transition: display 1s ease-in;
+}
+
+
+
 
 /* ==========footer section designed =========*/
 .footer-section{
