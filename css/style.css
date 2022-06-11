@@ -76,12 +76,23 @@ nav{
 
 /* ==========content section designed =========*/
 .content-text{
+    font-size: 18px;
     font-weight: 400;
     word-spacing: 2px;
     text-align: justify;
 }
 .welcome-section, .our-goals{
     padding: 20px 0px;
+}
+.large-text{
+    font-size: 28px;
+}
+.medium-text{
+    font-size: 26px;
+    line-height: 20px;
+}
+.text-box-1, .text-box-2, .text-box-3{
+    font-size: 18px;
 }
 .text-box-1{
     background-color: rgba(0, 0, 0, .2);
@@ -97,13 +108,7 @@ nav{
     background-color: rgba(0, 0, 0, .2);
     box-shadow: 5px 10px 20px #dedede;
 }
-.large-text{
-    font-size: 24px;
-}
-.medium-text{
-    font-size: 20px;
-    line-height: 20px;
-}
+
 .center-text{
     text-align: center;
 }
