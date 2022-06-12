@@ -107,16 +107,17 @@ nav{
     box-shadow: 5px 10px 20px #dedede;
 }
 
-.center-text{
-    text-align: center;
+.medium-text.center-text{
+    width: 100%;
+    margin: 0 auto;
 }
 
 
 /* ============what we do page designed========== */
 
 .text-toggle{
-    /* display: none; */
-    font-size: 18px;
+    display: none !important;
+    font-size: 18px !important;
 }
 .show{
     display: block;
