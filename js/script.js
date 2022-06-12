@@ -20,6 +20,16 @@ document.addEventListener("DOMContentLoaded", function(){
   });
 
 
-    
+    // see more button event listener
+    const textContent = document.querySelector('.body-content');
+
+    textContent.addEventListener('click', function(event){
+      const targetContent = event.target;
+      
+      if(targetContent.id == 'see-more-btn'){
+        const hideText = targetContent.parentElement;
+        console.log(hideText)
+      }
+    })
 
 
