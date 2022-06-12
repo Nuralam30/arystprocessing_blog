@@ -115,7 +115,8 @@ nav{
 /* ============what we do page designed========== */
 
 .text-toggle{
-    display: none;
+    /* display: none; */
+    font-size: 18px;
 }
 .show{
     display: block;

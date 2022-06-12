@@ -20,12 +20,6 @@ document.addEventListener("DOMContentLoaded", function(){
   });
 
 
-    // see more button event listener
-    const textContent = document.querySelectorAll('.content-text').childnodes;
     
-    textContent.addEventListener('click', function(e){
-      const seeMoreBtn = e.target;
-      console.log(seeMoreBtn)
-    })
 
 
