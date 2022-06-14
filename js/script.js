@@ -25,12 +25,13 @@ document.addEventListener("DOMContentLoaded", function(){
 
     textContent.addEventListener('click', function(event){
       const targetContent = event.target;
-      
+
       if(targetContent.id == 'see-more-btn'){
         const sectionContainer = targetContent.parentElement;
-        console.log(sectionContainer)
-        
+        const details = sectionContainer.querySelector('.text-toggle');
+
+        details.classList.toggle('show'); 
       }
-    })
+    });
 
 
