@@ -16,7 +16,7 @@ body{
 
 /* ==========header section designed =========*/
 nav{
-    height: 90px;
+    height: 10vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -27,7 +27,7 @@ nav{
     align-items: center;
 }
 .logo img{
-    width: 90px;
+    width: 60px;
 }
 .brand-name{
     font-size: 32px;
@@ -107,14 +107,18 @@ nav{
     box-shadow: 5px 10px 20px #dedede;
 }
 
-.medium-text.center-text{
+.center-text{
+    text-align: center !important;
     width: 100%;
-    margin: 0 auto;
+    float: right;
+    line-height: 36px;
 }
 
 
 /* ============what we do page designed========== */
-
+#who-we-are, #what-we-do, #programs, #privacy-policy{
+    padding: 50px 0px;
+}
 .text-toggle{
     display: none !important;
     font-size: 18px !important;
