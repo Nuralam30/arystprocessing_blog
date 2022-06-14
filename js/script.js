@@ -27,8 +27,9 @@ document.addEventListener("DOMContentLoaded", function(){
       const targetContent = event.target;
       
       if(targetContent.id == 'see-more-btn'){
-        const hideText = targetContent.parentElement;
-        console.log(hideText.childNodes)
+        const sectionContainer = targetContent.parentElement;
+        console.log(sectionContainer)
+        
       }
     })
 
