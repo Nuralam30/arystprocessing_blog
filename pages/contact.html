@@ -7,6 +7,7 @@
     <title>contact</title>
 
     <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <link rel="stylesheet" href="../css/style.css">
 
     <script src="https://js.hcaptcha.com/1/api.js" async defer></script>
@@ -29,6 +30,8 @@
                 <a href="./contact.html" class="nav-link">Contact</a>
             </li>
         </ul>
+        
+        <i class="fas fa-bars btn btn-toggle" onclick="responsive()"></i>
     </nav>
     <div class="line-part">
         <img src="../images/goldswirltrans1.png" alt="">
@@ -68,7 +71,7 @@
                         <input type="text" class="form-control" name="user-email" placeholder="Enter your Email" required>
                     </div>
                     <div class="col-md-6 col-12 form-group">
-                        <label for="inputWork">What do you do? <span>*</span></label>
+                        <label for="inputWork">What do you do? </label>
                         <input type="text" class="form-control" name="user-working" required>
                     </div>
                     <div class="col-md-12 col-12 form-group">
@@ -78,7 +81,7 @@
 
                     <div class="col-md-12 col-12 form-group">
                         <label for="inputContactMethod">Please include how you would like us to contact you.<span>*</span></label>
-                        <textarea class="form-control" name="contact-method" rows="2" required></textarea>
+                        <textarea class="form-control" name="contact-method" rows="1" required></textarea>
                     </div>
                     
                     <div class="h-captcha" data-sitekey="9f92e1c5-967d-4c0e-86d5-144a45a89524"></div>
