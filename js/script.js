@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", function(){
   });
 
 
-    // see more button event listener
+    // see more and see less button event listener
     const textContent = document.querySelector('.body-content');
 
     textContent.addEventListener('click', function(event){
