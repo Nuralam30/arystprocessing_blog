@@ -29,8 +29,23 @@ document.addEventListener("DOMContentLoaded", function(){
       if(targetContent.id == 'see-more-btn'){
         const sectionContainer = targetContent.parentElement;
         const details = sectionContainer.querySelector('.text-toggle');
+        const seeMoreBtn = sectionContainer.querySelector('#see-more-btn');
+        const seeLessBtn = sectionContainer.querySelector('#see-less-btn');
 
-        details.classList.toggle('show'); 
+        details.style.display = 'block';
+        seeLessBtn.style.display = 'block';
+        seeMoreBtn.style.display = 'none';
+      }
+
+      if(targetContent.id == 'see-less-btn'){
+        const sectionContainer = targetContent.parentElement;
+        const details = sectionContainer.querySelector('.text-toggle');
+        const seeMoreBtn = sectionContainer.querySelector('#see-more-btn');
+        const seeLessBtn = sectionContainer.querySelector('#see-less-btn');
+
+        details.style.display = 'none';
+        seeLessBtn.style.display = 'none';
+        seeMoreBtn.style.display = 'block';
       }
     });
 
