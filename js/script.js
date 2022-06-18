@@ -51,45 +51,15 @@ document.addEventListener("DOMContentLoaded", function(){
     }
 
     function scrollTop(){
-      // document.body.scrollTop = 0;
-      // document.documentElement.scrollTop = 0;
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
       
       console.log('top')
     }
 
 
 
-
-    // see more and see less button event listener
-    // const textContent = document.querySelector('.body-content');
-
-    // textContent.addEventListener('click', function(e){
-    //   const targetContent = e.target;
-
-    //   if(targetContent.id == 'see-more-btn'){
-    //     const sectionContainer = targetContent.parentElement;
-    //     const details = sectionContainer.querySelector('.text-toggle');
-    //     const seeMoreBtn = sectionContainer.querySelector('#see-more-btn');
-    //     const seeLessBtn = sectionContainer.querySelector('#see-less-btn');
-
-    //     details.style.display = 'block';
-    //     seeLessBtn.style.display = 'block';
-    //     seeMoreBtn.style.display = 'none';
-    //   }
-
-    //   if(targetContent.id == 'see-less-btn'){
-    //     const sectionContainer = targetContent.parentElement;
-    //     const details = sectionContainer.querySelector('.text-toggle');
-    //     const seeMoreBtn = sectionContainer.querySelector('#see-more-btn');
-    //     const seeLessBtn = sectionContainer.querySelector('#see-less-btn');
-
-    //     details.style.display = 'none';
-    //     seeLessBtn.style.display = 'none';
-    //     seeMoreBtn.style.display = 'block';
-    //   }
-    // });
-
-
+    // see more button event listener
     function seeDetails(e){
       const container = e.parentElement;
 
@@ -103,16 +73,17 @@ document.addEventListener("DOMContentLoaded", function(){
     }
 
 
+    // see less button event listener
     function hideDetails(e){
       const container = e.parentElement;
 
       const details = container.querySelector('.text-toggle');
       const seeMoreBtn = container.querySelector('#see-more-btn');
       const seeLessBtn = container.querySelector('#see-less-btn');
-
-      details.style.display = 'block';
-      seeLessBtn.style.display = 'block';
-      seeMoreBtn.style.display = 'none';
+  
+      details.style.display = 'none';
+      seeLessBtn.style.display = 'none';
+      seeMoreBtn.style.display = 'block';
     }
 
 
