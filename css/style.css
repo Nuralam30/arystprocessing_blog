@@ -150,8 +150,6 @@ table th{
 }
 
 
-
-
 /* ==========footer section designed =========*/
 .footer-section{
     padding: 60px 0px;
@@ -178,6 +176,24 @@ table th{
 .links a:hover{
     color: #daad32;
 }
+
+
+
+/* ============scroll-to-top-section============= */
+.scroll-top{
+    position: relative;
+}
+.scroll-btn{
+    position: fixed;
+    right: 30px;
+    bottom: 20px;
+    font-size: 28px;
+    background-color: #90afbb;
+    border-radius: 50%;
+    transform: rotate(90deg);
+    /* display: none; */
+}
+
 
 
 
