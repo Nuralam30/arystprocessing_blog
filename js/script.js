@@ -50,13 +50,9 @@ document.addEventListener("DOMContentLoaded", function(){
         } 
     }
 
-    function scrollTop(){
-      document.body.scrollTop = 0;
-      document.documentElement.scrollTop = 0;
-      
-      console.log('top')
+    function scrolltop(){
+      window.scrollTo(0, 0);
     }
-
 
 
     // see more button event listener
