@@ -193,7 +193,7 @@ table th{
     border: none;
     border-radius: 50%;
     transform: rotate(90deg);
-    /* display: none; */
+    display: none;
 }
 .fa-chevron-left{
     color: #6e6b6b;
