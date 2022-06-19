@@ -159,6 +159,7 @@ nav{
     border: 1px solid #d4d0d0;
     border-radius: 10px;
     padding: 20px;
+    transition: 4s;
 }
 .our-customers .box-content:hover{
     box-shadow: 5px 10px 15px #dedede;
@@ -177,12 +178,22 @@ nav{
     color: #4b4848;
 }
 .our-customers .customer-comment{
-    font-size: 14px;
+    color: #6e6b6b;
     text-align: justify;
     display: none;
+    transition: display 4s;
 }
 .our-customers .box-content:hover .customer-comment{
     display: flex;
+    animation: textAnimate 0.3s ease-in;
+}
+@keyframes textAnimate{
+    0%{
+       font-size: 5px;
+    }
+    100%{
+        font-size: 14px;
+    }
 }
 
 
