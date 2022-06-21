@@ -392,6 +392,9 @@ table th{
     .content-text{
         font-size: 16px;
     }
+    .text-toggle{
+        font-size: 16px !important;
+    }
     .large-text{
         font-size: 22px;
     }
